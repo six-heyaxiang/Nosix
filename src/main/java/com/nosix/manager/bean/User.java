@@ -12,6 +12,7 @@ public class User {
     private Date NScreatetime;
     private String NSemail;
     private String NSphone;
+    private String NSsalt;
 
     public Long getId() {
         return id;
@@ -59,5 +60,13 @@ public class User {
 
     public void setNSphone(String NSphone) {
         this.NSphone = NSphone;
+    }
+
+    public String getNSsalt() {
+        return NSsalt;
+    }
+
+    public void setNSsalt(String NSsalt) {
+        this.NSsalt = NSsalt;
     }
 }

@@ -72,6 +72,7 @@
                 /login.jsp* = anon
                 /login.do* = anon
                 /index.jsp* = anon
+                /static/** = anon
                 /error/noperms.jsp* = anon
                 /*.jsp* = authc
                 /*.do* = authc

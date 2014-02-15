@@ -23,24 +23,14 @@ public class NosixJdbcRealm extends JdbcRealm{
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
         UsernamePasswordToken upToken = (UsernamePasswordToken) token;
-        String username = upToken.getUsername();
-        if(username == null){
-//            throw new AccountException("Null usernames are not allowed by this realm.");
+        User user = userService.getUserByUsername(upToken.getUsername());
+        if(user != null){
+            SimpleAuthenticationInfo saInfo = new SimpleAuthenticationInfo(upToken.getUsername(), user.getNSpassword(), getName());
+            saInfo.setCredentials(ByteSource.Util.bytes(upToken.getUsername()));
+            return saInfo;
+        }else {
+            return null;
         }
-        User user = userService.getUserByUsername(username);
-        AuthenticationInfo info = null;
-        if(user == null){
-
-        }else{
-            if(user.getNSpassword() == null){
-
-            }else{
-                SimpleAuthenticationInfo saInfo = new SimpleAuthenticationInfo(username, user.getNSpassword(), getName());
-                saInfo.setCredentials(ByteSource.Util.bytes(username));
-                info = saInfo;
-            }
-        }
-        return info;
     }
 
     @Override

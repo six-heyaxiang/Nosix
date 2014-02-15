@@ -11,18 +11,26 @@
 <html>
   <head>
     <title>Nosix</title>
-      <link type="text/css" href="./static/bootstrap/css/bootstrap.css">
-      <script type="text/javascript" src="./static/jquery/jquery-1.10.2.js"></script>
-      <script type="text/javascript" src="./static/bootstrap/js/bootstrap.min.js"></script>
-      <link type="text/css" href="./static/bootstrap/css/bootstrap-theme.min.css">
+    <jsp:include page="/WEB-INF/views/common.jsp"></jsp:include>
   </head>
   <body>
-  <div class="row">
-      <form action="${ctx}/login.do" method="post" class="form-control">
-          UserName:<input class="input-lg" name="username" placeholder="请输入用户名"><br>
-          Password:<input class="input-lg" name="password" placeholder="请输入密码">
-          <input type="submit" value="提交">
-      </form>
-  </div>
+  <div class="container">
+      <div class="row">
+          <c:if test="${msg ne null}">
+              <div class="col-lg-offset-4 col-lg-5 alert alert-danger">
+                  <button type="button" class="close" data-dismiss="alert">&times;</button>
+                  <strong>警告!</strong> ${msg}
+              </div>
+          </c:if>
+      </div>
+      <div class="row">
+          <form class="col-lg-offset-5 col-lg-3 form-signin" role="form" action="${ctx}/login.do">
+              <h2 class="form-signin-heading">管理员登录</h2>
+              <input type="text" name="username" class="form-control" placeholder="帐号" required autofocus>
+              <input type="password" name="password" class="form-control" placeholder="密码" required>
+              <button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
+          </form>
+      </div>
+  </div><!-- /container -->
   </body>
 </html>
