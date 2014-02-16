@@ -6,11 +6,11 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<header class="navbar navbar-fixed-top" role="banner" style="background-color: #d3d3d3;">
+<header class="navbar" role="banner" style="background-color: #d3d3d3;">
     <div class="container">
-        <div class="navbar-header">
-            <a href="#" class="navbar-brand">Nosix</a>
-        </div>
+        <%--<div class="navbar-header">--%>
+            <%--<a href="#" class="navbar-brand">Nosix</a>--%>
+        <%--</div>--%>
         <nav class="collapse navbar-collapse" role="navigation">
             <ul class="nav navbar-nav">
                 <li class="active" >
