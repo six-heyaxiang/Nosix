@@ -12,14 +12,18 @@
     <!--<context:property-placeholder location="classpath:jdbc.properties"/>-->
      <!--创建jdbc数据源-->
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
-         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+         <!--<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
          <property name="url" value="jdbc:mysql://192.168.1.197:3306/sns"/>
          <property name="username" value="root"/>
-         <property name="password" value=""/>
-         <property name="initialSize" value="1"/>
-         <property name="maxActive" value="2"/>
-         <property name="maxIdle" value="2"/>
-         <property name="minIdle" value="1"/>
+         <property name="password" value=""/>-->
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://127.0.0.1:3306/nosix"/>
+        <property name="username" value="root"/>
+        <property name="password" value="123456"/>
+        <property name="initialSize" value="1"/>
+        <property name="maxActive" value="2"/>
+        <property name="maxIdle" value="2"/>
+        <property name="minIdle" value="1"/>
     </bean>
     <!-- 创建SqlSessionFactory，同时指定数据源-->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
@@ -64,15 +68,12 @@
     <!--</bean>-->
     <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
         <property name="securityManager" ref="securityManager" />
-        <property name="loginUrl" value="/login.jsp" />
-        <property name="successUrl" value="/index.jsp" />
+        <property name="loginUrl" value="/index.jsp" />
+        <property name="successUrl" value="/main.do" />
         <property name="unauthorizedUrl" value="/error/noperms.jsp" />
         <property name="filterChainDefinitions">
             <value>
-                /login.jsp* = anon
                 /account/login.do* = anon
-                /account/add.do* = anon
-                /rights.do* = anon
                 /index.jsp* = anon
                 /static/** = anon
                 /error/noperms.jsp* = anon

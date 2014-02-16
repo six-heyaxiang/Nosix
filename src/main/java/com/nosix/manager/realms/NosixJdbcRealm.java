@@ -30,6 +30,7 @@ public class NosixJdbcRealm extends JdbcRealm{
         if(adminUser != null){
             byte[] salt = Encodes.decodeHex(adminUser.getNSsalt());
             SimpleAuthenticationInfo saInfo = new SimpleAuthenticationInfo(adminUser, adminUser.getNSpassword(),ByteSource.Util.bytes(salt), getName());
+
             return saInfo;
         }else {
             return null;

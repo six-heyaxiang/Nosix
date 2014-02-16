@@ -37,6 +37,7 @@
             try {
                 currentSubject.login(token);
             }catch (Exception e){
+                e.printStackTrace();
                 currentSubject.logout();
             }
             //4.登录成功,插入登录信息
