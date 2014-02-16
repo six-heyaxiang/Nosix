@@ -9,7 +9,7 @@
 <div class="bs-sidebar hidden-print affix-top">
     <ul class="nav bs-sidenav">
         <li class="active">
-            <a href="#" class="menu-item">联系人管理</a>
+            <a href="#" class="menu-item">权限管理</a>
             <ul class="nav" style="display: none;">
                 <li class="">
                     <a href="#">1</a>
@@ -20,7 +20,18 @@
             </ul>
         </li>
         <li class="">
-            <a href="#" class="menu-item">权限管理</a>
+            <a href="#" class="menu-item">角色管理</a>
+            <ul class="nav" style="display: none;">
+                <li>
+                    <a>1</a>
+                </li>
+                <li>
+                    <a>2</a>
+                </li>
+            </ul>
+        </li>
+        <li class="">
+            <a href="#" class="menu-item">用户管理</a>
             <ul class="nav" style="display: none;">
                 <li>
                     <a>1</a>

@@ -22,13 +22,19 @@
 </head>
 <body>
 <jsp:include page="layout/header.jsp"></jsp:include>
-<div class="container col-md-10 col-md-offset-1" style=" border: red solid 1px;">
+<div class="container col-md-10 col-md-offset-1">
     <div class="row">
         <div class="col-md-2">
             <jsp:include page="layout/left.jsp"></jsp:include>
         </div>
-        <div class="col-md-10" style="border: red solid 1px;">
-            dsfdsfds
+        <div class="col-md-10">
+            <div class="row">
+                <ol class="breadcrumb">
+                    <li><a href="#">管理</a></li>
+                    <li><a href="#">权限管理</a></li>
+                    <li class="active">权限编辑</li>
+                </ol>
+            </div>
         </div>
     </div>
 </div>

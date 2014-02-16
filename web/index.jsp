@@ -24,10 +24,10 @@
           </c:if>
       </div>
       <div class="row">
-          <form class="col-lg-offset-5 col-lg-3 form-signin" role="form" action="${ctx}/login.do">
+          <form class="col-lg-offset-5 col-lg-3 form-signin" role="form" action="${ctx}/account/login.do" method="post">
               <h2 class="form-signin-heading">管理员登录</h2>
-              <input type="text" name="username" class="form-control" placeholder="帐号" required autofocus>
-              <input type="password" name="password" class="form-control" placeholder="密码" required>
+              <input type="text" name="NSusername" class="form-control" placeholder="帐号" required autofocus>
+              <input type="password" name="NSpassword" class="form-control" placeholder="密码" required>
               <button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
           </form>
       </div>

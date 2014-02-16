@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * Created by john on 2/14/14.
  */
-public class User {
+public class AdminUser {
     private Long id;
     private String NSusername;
     private String NSpassword;
@@ -13,7 +13,14 @@ public class User {
     private String NSemail;
     private String NSphone;
     private String NSsalt;
+    private String NSip;
 
+    public String getNSip() {
+        return NSip;
+    }
+    public void setNSip(String NSip) {
+        this.NSip = NSip;
+    }
     public Long getId() {
         return id;
     }

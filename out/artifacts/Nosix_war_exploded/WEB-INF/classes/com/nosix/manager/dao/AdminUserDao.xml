@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nosix.manager.dao.AdminUserDao">
+    <select id="getUserByUsername" resultType="com.nosix.manager.bean.AdminUser" parameterType="java.lang.String">
+        SELECT * FROM ns_adminuser WHERE NSusername = #{username}
+    </select>
+    <insert id="save" parameterType="com.nosix.manager.bean.AdminUser">
+        INSERT INTO ns_adminuser(NSusername,NSpassword,NSsalt) VALUES (#{NSusername},#{NSpassword},#{NSsalt});
+    </insert>
+</mapper>

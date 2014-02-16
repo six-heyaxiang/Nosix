@@ -5,9 +5,9 @@
         <setting name="lazyLoadingEnabled" value="false" />
     </settings>
     <typeAliases>
-        <typeAlias type="com.nosix.manager.bean.User" alias="User"/>
+        <typeAlias type="com.nosix.manager.bean.AdminUser" alias="AdminUser"/>
     </typeAliases>
     <mappers>
-        <mapper resource="com/nosix/manager/dao/UserDao.xml"/>
+        <mapper resource="com/nosix/manager/dao/AdminUserDao.xml"/>
     </mappers>
 </configuration>

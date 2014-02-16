@@ -14,21 +14,17 @@
         <nav class="collapse navbar-collapse" role="navigation">
             <ul class="nav navbar-nav">
                 <li class="active" >
-                    <a href="../getting-started">起步</a>
+                    <a href="#">统计</a>
                 </li>
-                <li>
-                    <a href="../css">CSS</a>
+                <li class="active" >
+                    <a href="#">审核</a>
                 </li>
-                <li>
-                    <a href="../components">组件</a>
+                <li class="active" >
+                    <a href="#">广告</a>
                 </li>
-                <li>
-                    <a href="../javascript">JavaScript插件</a>
+                <li class="active" >
+                    <a href="#">管理</a>
                 </li>
-                <li>
-                    <a href="../customize">定制</a>
-                </li>
-            </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li>
                     <a href="../about">关于</a>

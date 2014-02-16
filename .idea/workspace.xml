@@ -63,44 +63,7 @@
     <favorites_list name="Nosix" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="left.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/layout/left.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="760">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/static/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/main.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="30" selection-start="764" selection-end="764" vertical-scroll-proportion="0.57109827" vertical-offset="0" max-vertical-offset="865">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/layout/header.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="21" selection-start="234" selection-end="234" vertical-scroll-proportion="-5.428571" vertical-offset="0" max-vertical-offset="855">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -111,29 +74,36 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/realms/JdbcRealm.java" />
-        <option value="$PROJECT_DIR$/src/main/conf/jdbc.properties" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/spring-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/dao/UserDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/conf/mybatis/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/conf/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/common.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/layout/left.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/realms/NosixJdbcRealm.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/utils/security/Digests.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/utils/security/Encodes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/bean/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/utils/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/bean/User.java" />
+        <option value="$PROJECT_DIR$/src/main/conf/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/controller/RightsManageController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/service/AdminUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/conf/mybatis/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/service/impl/AdminUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/dao/AdminUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/dao/AdminUserDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/realms/NosixJdbcRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/conf/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/rights/rights.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/common.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nosix/manager/controller/AdminAccountController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/layout/header.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/main.jsp" />
         <option value="$PROJECT_DIR$/web/static/css/style.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/layout/left.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/main.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/layout/header.jsp" />
       </list>
     </option>
   </component>
@@ -229,206 +199,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Nosix" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nosix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -890,20 +660,22 @@
       <workItem from="1392384625513" duration="11417000" />
       <workItem from="1392465382231" duration="8485000" />
       <workItem from="1392476527183" duration="6227000" />
-      <workItem from="1392519766627" duration="1276000" />
+      <workItem from="1392519766627" duration="8519000" />
+      <workItem from="1392530041553" duration="3702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34751000" />
+    <option name="totallyTimeSpent" value="45696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32786885" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -923,8 +695,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.153125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15364583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.031578947" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1703125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43578947" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -953,11 +725,82 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+        <state line="33" column="6" selection-start="630" selection-end="959" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="798">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/rights/rights.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="27" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="627">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nosix/manager/controller/RightsManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="42" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="437">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nosix/manager/controller/AdminAccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="64" selection-start="1552" selection-end="1552" vertical-scroll-proportion="0.0" vertical-offset="665" max-vertical-offset="1596">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nosix/manager/realms/NosixJdbcRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="83" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="41" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="798">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nosix/manager/service/impl/AdminUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="20" selection-start="977" selection-end="977" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nosix/manager/dao/AdminUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="17" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nosix/manager/service/AdminUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nosix/manager/dao/AdminUserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="304">
+          <folding>
+            <marker date="1392528889039" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..ns_adminuser..." />
+            <marker date="1392528889039" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
@@ -1024,13 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="40" selection-start="2649" selection-end="2649" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1350">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="26" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="486">
@@ -1043,84 +879,176 @@
         <state line="2" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1494" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/conf/mybatis/mybatis-config.xml">
+    <entry file="jar://D:/development/apache-tomcat-7.0.42/lib/servlet-api.jar!/javax/servlet/http/HttpServletRequest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="62" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324" />
+        <state line="6" column="17" selection-start="165" selection-end="165" vertical-scroll-proportion="0.18199234" vertical-offset="0" max-vertical-offset="1501" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/conf/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="37" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234" />
+        <state line="5" column="0" selection-start="132" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="155" column="39" selection-start="5606" selection-end="5606" vertical-scroll-proportion="0.0" vertical-offset="1535" max-vertical-offset="3116">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="40" selection-start="2649" selection-end="2649" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/conf/mybatis/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="53" selection-start="440" selection-end="452" vertical-scroll-proportion="0.3846154" vertical-offset="0" max-vertical-offset="494" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nosix/manager/bean/AdminUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="161" selection-end="163" vertical-scroll-proportion="-0.34615386" vertical-offset="342" max-vertical-offset="1007">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nosix/manager/dao/AdminUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="17" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nosix/manager/dao/AdminUserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="407" selection-end="407" vertical-scroll-proportion="0.22396857" vertical-offset="0" max-vertical-offset="509">
+          <folding>
+            <marker date="1392528889039" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..ns_adminuser..." />
+            <marker date="1392528889039" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.2/shiro-core-1.2.2.jar!/org/apache/shiro/authc/SimpleAuthenticationInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="35" selection-start="703" selection-end="727" vertical-scroll-proportion="0.61009175" vertical-offset="0" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nosix/manager/realms/NosixJdbcRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="21" selection-start="1469" selection-end="1469" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="741">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nosix/manager/service/impl/AdminUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="20" selection-start="977" selection-end="977" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nosix/manager/service/AdminUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="314" selection-end="314" vertical-scroll-proportion="0.55992144" vertical-offset="0" max-vertical-offset="509">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nosix/manager/controller/RightsManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="42" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/conf/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="25" selection-start="3991" selection-end="3991" vertical-scroll-proportion="-9.52" vertical-offset="1058" max-vertical-offset="1566">
+        <state line="76" column="33" selection-start="4139" selection-end="4139" vertical-scroll-proportion="0.572314" vertical-offset="1167" max-vertical-offset="1691">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/jquery/jquery-1.10.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="186086">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="35" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.6418919" vertical-offset="142" max-vertical-offset="756">
+        <state line="7" column="0" selection-start="152" selection-end="217" vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="798">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/development/apache-tomcat-7.0.42/lib/servlet-api.jar!/javax/servlet/http/HttpServletRequest.class">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/rights/rights.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="165" selection-end="165" vertical-scroll-proportion="0.18199234" vertical-offset="0" max-vertical-offset="1501">
+        <state line="13" column="48" selection-start="426" selection-end="426" vertical-scroll-proportion="-6.785714" vertical-offset="57" max-vertical-offset="665">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/common.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="57" selection-start="5032" selection-end="5032" vertical-scroll-proportion="0.6071829" vertical-offset="2100" max-vertical-offset="3021">
+        <state line="14" column="74" selection-start="714" selection-end="714" vertical-scroll-proportion="0.5530146" vertical-offset="0" max-vertical-offset="481">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nosix/manager/controller/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nosix/manager/controller/AdminAccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="91" selection-start="747" selection-end="747" vertical-scroll-proportion="0.475" vertical-offset="0" max-vertical-offset="1273">
+        <state line="9" column="23" selection-start="227" selection-end="227" vertical-scroll-proportion="0.33595285" vertical-offset="0" max-vertical-offset="509">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/layout/header.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nosix/manager/controller/AdminAccountController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="21" selection-start="234" selection-end="234" vertical-scroll-proportion="-5.428571" vertical-offset="0" max-vertical-offset="855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/layout/left.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893">
+        <state line="38" column="33" selection-start="1610" selection-end="1610" vertical-scroll-proportion="0.55794704" vertical-offset="138" max-vertical-offset="1311">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+        <state line="19" column="22" selection-start="477" selection-end="477" vertical-scroll-proportion="0.7092338" vertical-offset="0" max-vertical-offset="665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/layout/left.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="50" selection-start="709" selection-end="709" vertical-scroll-proportion="0.86902285" vertical-offset="0" max-vertical-offset="969">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="30" selection-start="764" selection-end="764" vertical-scroll-proportion="0.57109827" vertical-offset="0" max-vertical-offset="865">
+        <state line="34" column="48" selection-start="1059" selection-end="1059" vertical-scroll-proportion="-11.535714" vertical-offset="323" max-vertical-offset="912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/layout/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="38" selection-start="820" selection-end="820" vertical-scroll-proportion="0.6777547" vertical-offset="92" max-vertical-offset="779">
           <folding />
         </state>
       </provider>
